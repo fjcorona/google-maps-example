@@ -73,11 +73,11 @@ var mapsPerformance = {
                 infoWindows[idx] = new google.maps.InfoWindow({
                     // content: FNC.getTemplate(temps["map_infobox"], locations[idx])
                     content: "<div>" + 
-                                "<h4>" + locations[idx].name + "</h4><br>" +
-                                "<img src='"+ locations[idx].picture + "'><br>" +
+                                "<h4>" + locations[idx].name + "</h4>" +
+                                "<img src='"+ locations[idx].picture + "'><br><br>" +
                                 locations[idx].address +
-                                "<br>" +
-                                "<a href='" + locations[idx].link + "'>Go to google maps</a>" +
+                                "<br><br>" +
+                                "<a href='" + locations[idx].link + "'>Go to google maps</a><br>" +
                              "</di>"
                 });
                 attachInfoWindowToMarker(map, markers[idx], infoWindows[idx], active);
