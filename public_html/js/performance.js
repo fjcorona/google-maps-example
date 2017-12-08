@@ -20,6 +20,16 @@ var mapsPerformance = {
         });
         return locationsClean;
     },
+    infoWindowGeneretor(location) {
+        return
+            "<div>" + 
+                "<h4>" + location.place + "</h4>" +
+                "<img src='"+ location.picture + "'><br><br>" +
+                "<span>" + location.address + "</span>" +
+                "<br><br>" +
+                "<a href='" + location.link + "'>Go to google maps</a><br>" +
+             "</di>";
+    },
     loadMap: function(locations, areaRender, title, active) {
         locations = mapsPerformance.cleanLocations(locations);
         active = (active === true) ? true : false;
@@ -73,13 +83,7 @@ var mapsPerformance = {
                 bounds.extend(markers[idx].getPosition());
                 infoWindows[idx] = new google.maps.InfoWindow({
                     // content: FNC.getTemplate(temps["map_infobox"], locations[idx])
-                    content: "<div>" + 
-                                "<h4>" + locations[idx].place + "</h4>" +
-                                "<img src='"+ locations[idx].picture + "'><br><br>" +
-                                locations[idx].address +
-                                "<br><br>" +
-                                "<a href='" + locations[idx].link + "'>Go to google maps</a><br>" +
-                             "</di>"
+                    content: mapsPerformance.infoWindowGeneretor(locations[idx])
                 });
                 attachInfoWindowToMarker(map, markers[idx], infoWindows[idx], active);
             }
