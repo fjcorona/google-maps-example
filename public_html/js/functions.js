@@ -29,7 +29,16 @@ FNC = (function() {
         }
         return arrayObj;
     }
-
+    
+    function sumArrayObjByKey(arrayObj, numKey) {
+        return _.reduce(
+                _.pluck(arrayObj, numKey),
+                function(sum, num) {
+                    return (+sum) + (+num);
+                }
+        );
+    }
+    
     function avgArrayObjByKey(arrayObj, numKey) {
         var sum, length;
         length = arrayObj.length;
@@ -40,6 +49,7 @@ FNC = (function() {
     return {
         withoutArrayObjAND : withoutArrayObjAND,
          withoutArrayObjOR : withoutArrayObjOR,
+          sumArrayObjByKey : sumArrayObjByKey,
           avgArrayObjByKey : avgArrayObjByKey
     }
 }());

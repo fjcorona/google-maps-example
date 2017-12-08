@@ -41,7 +41,7 @@ var mapsPerformance = {
                     FNC.avgArrayObjByKey(locations, "latitud"),
                     FNC.avgArrayObjByKey(locations, "longitud")
                 ),
-                zoom: 16,
+                zoom: 10,
                 scrollwheel: false,
                 mapTypeControlOptions: {
                     mapTypeIds: [
@@ -72,14 +72,20 @@ var mapsPerformance = {
                 bounds.extend(markers[idx].getPosition());
                 infoWindows[idx] = new google.maps.InfoWindow({
                     // content: FNC.getTemplate(temps["map_infobox"], locations[idx])
-                    content: "<div>Ubicación actual</di>"
+                    content: "<div>" + 
+                                "<h4>" + locations[idx].name + "</h4><br>" +
+                                "<img src='"+ locations[idx].picture + "'><br>" +
+                                locations[idx].address +
+                                "<br>" +
+                                "<a href='" + locations[idx].link + "'>Go to google maps</a>" +
+                             "</di>"
                 });
                 attachInfoWindowToMarker(map, markers[idx], infoWindows[idx], active);
             }
             //
             map.fitBounds(bounds);
         } else {
-            $("#" + areaRender).html("<div>No locations found</div>");
+            $("#" + areaRender).html("<div>Locations not found</div>");
         }
         // function to attach infowindow with marker
         function attachInfoWindowToMarker(map, marker, infoWindow, active) {

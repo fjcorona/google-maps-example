@@ -1,0 +1,42 @@
+[
+    {
+            "name" : "Plaza del Sol",
+         "address" : "Avenida López Mateos Sur 2375, Ciudad del Sol, Cd del Sol, 45050 Zapopan, JAL",
+         "latitud" : 20.649562,
+        "longitud" : -103.4040404,
+         "picture" : "img/maps/plaza_del_sol.jpg",
+            "link" : "https://www.google.com.mx/maps/place/Plaza+del+Sol/@20.649562,-103.4040404,15z/data=!4m5!3m4!1s0x0:0x79895784974bf513!8m2!3d20.649562!4d-103.4040404"
+    },
+    {
+            "name" : "Glorieta la Minerva",
+         "address" : "Av. Vallarta, Vallarta, 44690 Guadalajara, Jal.",
+         "latitud" : 20.6744448,
+        "longitud" : -103.3873344,
+         "picture" : "img/maps/minerva.jpg",
+            "link" : "https://www.google.com.mx/maps/place/Glorieta+De+La+Minerva/@20.6744448,-103.3873344,15z/data=!4m2!3m1!1s0x0:0xf5962e03bf01aff8?sa=X&ved=0ahUKEwiznbGKofvXAhXo5YMKHcEWCs4Q_BIIsQEwFw"
+    },
+    {
+            "name" : "Plaza Patria",
+         "address" : "Centro Comercial Plaza Patria Zona L Planta Alta, Jacarandas, 45160 Zapopan, Jal.",
+         "latitud" : 20.7122538,
+        "longitud" : -103.3784553,
+         "picture" : "img/maps/plaza_patria.jpg",
+            "link" : "https://www.google.com.mx/maps/place/Plaza+Patria/@20.7122538,-103.3784553,15z/data=!4m5!3m4!1s0x0:0xf7bcbe2370fc93fc!8m2!3d20.7122538!4d-103.3784553"
+    },
+    {
+            "name" : "Estadio Jalisco",
+         "address" : "Calle 7 Colinas 1772, Independencia, 44290 Guadalajara, Jal.",
+         "latitud" : 20.7049947,
+        "longitud" : -103.3281769,
+         "picture" : "img/maps/estadio_jalisco.png",
+            "link" : "https://www.google.com.mx/maps/place/Estadio+Jalisco/@20.7049947,-103.3281769,15z/data=!4m5!3m4!1s0x0:0x77ed0582d52f3be5!8m2!3d20.7049947!4d-103.3281769"
+    },
+    {
+            "name" : "Plaza Andares",
+         "address" : "Blvrd Puerta de Hierro 4965, Puerta de Hierro, 45116 Zapopan, Jal.",
+         "latitud" : 20.7093745,
+        "longitud" : -103.4150733,
+         "picture" : "img/maps/plaza_andares.jpg",
+            "link" : "https://www.google.com.mx/maps/place/Paseo+Andares,+45116+Zapopan,+Jal./@20.7093745,-103.4150733,17z/data=!3m1!4b1!4m5!3m4!1s0x8428af03ba1c626d:0xeea47646ab9fda84!8m2!3d20.7093745!4d-103.4128792"
+    }
+]
