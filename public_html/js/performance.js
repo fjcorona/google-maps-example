@@ -66,14 +66,15 @@ var mapsPerformance = {
                     ),
                     map: map,
                     icon: "img/custom_pin.png",
-                    title: title,
+                    // title: title,
+                    title: locations[idx].place,
                     animation: google.maps.Animation.DROP
                 });
                 bounds.extend(markers[idx].getPosition());
                 infoWindows[idx] = new google.maps.InfoWindow({
                     // content: FNC.getTemplate(temps["map_infobox"], locations[idx])
                     content: "<div>" + 
-                                "<h4>" + locations[idx].name + "</h4>" +
+                                "<h4>" + locations[idx].place + "</h4>" +
                                 "<img src='"+ locations[idx].picture + "'><br><br>" +
                                 locations[idx].address +
                                 "<br><br>" +

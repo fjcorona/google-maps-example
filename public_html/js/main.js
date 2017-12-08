@@ -1,5 +1,5 @@
 $(document).ready( function() {
     $.getJSON("json/maps.json", function (locations) {
-        mapsPerformance.loadMap(locations, "maps", "Custom maps", false);
+        mapsPerformance.loadMap(locations, "maps", "GDL Locations", false);
     });
 });
