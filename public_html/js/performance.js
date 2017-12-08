@@ -21,14 +21,15 @@ var mapsPerformance = {
         return locationsClean;
     },
     infoWindowGeneretor(location) {
-        return
+        var info =
             "<div>" + 
-                "<h4>" + location.place + "</h4>" +
+                "<h2>" + location.place + "</h2>" +
                 "<img src='"+ location.picture + "'><br><br>" +
                 "<span>" + location.address + "</span>" +
                 "<br><br>" +
                 "<a href='" + location.link + "'>Go to google maps</a><br>" +
              "</di>";
+        return info;
     },
     loadMap: function(locations, areaRender, title, active) {
         locations = mapsPerformance.cleanLocations(locations);
