@@ -45,7 +45,7 @@ var mapsPerformance = {
         bounds = new google.maps.LatLngBounds();
         // If there are maps
         if(locations.length) {
-            $("#" + areaRender).css("height", "650px");
+            $("#" + areaRender).css("height", "700px");
             // Make Options
             options = {
                 center: new google.maps.LatLng(
