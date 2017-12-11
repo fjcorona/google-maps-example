@@ -52,8 +52,8 @@ var mapsPerformance = {
                     FNC.avgArrayObjByKey(locations, "latitud"),
                     FNC.avgArrayObjByKey(locations, "longitud")
                 ),
-                zoom: 10,
-                scrollwheel: false,
+                zoom: 12,
+                scrollwheel: true,
                 mapTypeControlOptions: {
                     mapTypeIds: [
                         google.maps.MapTypeId.ROADMAP, 

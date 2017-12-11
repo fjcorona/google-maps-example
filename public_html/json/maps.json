@@ -1,51 +1,11 @@
 [
     {
-           "place" : "Plaza del Sol",
-         "address" : "Avenida López Mateos Sur 2375, Ciudad del Sol, Cd del Sol, 45050 Zapopan, JAL",
-         "latitud" : 20.649562,
-        "longitud" : -103.4040404,
-         "picture" : "img/maps/plaza_del_sol.jpg",
-            "link" : "https://www.google.com.mx/maps/place/Plaza+del+Sol/@20.649562,-103.4040404,15z/data=!4m5!3m4!1s0x0:0x79895784974bf513!8m2!3d20.649562!4d-103.4040404"
-    },
-    {
-           "place" : "Glorieta la Minerva",
-         "address" : "Av. Vallarta, Vallarta, 44690 Guadalajara, Jal.",
-         "latitud" : 20.6744448,
-        "longitud" : -103.3873344,
-         "picture" : "img/maps/minerva.jpg",
-            "link" : "https://www.google.com.mx/maps/place/Glorieta+De+La+Minerva/@20.6744448,-103.3873344,15z/data=!4m2!3m1!1s0x0:0xf5962e03bf01aff8?sa=X&ved=0ahUKEwiznbGKofvXAhXo5YMKHcEWCs4Q_BIIsQEwFw"
-    },
-    {
-           "place" : "Plaza Patria",
-         "address" : "Centro Comercial Plaza Patria Zona L Planta Alta, Jacarandas, 45160 Zapopan, Jal.",
-         "latitud" : 20.7122538,
-        "longitud" : -103.3784553,
-         "picture" : "img/maps/plaza_patria.jpg",
-            "link" : "https://www.google.com.mx/maps/place/Plaza+Patria/@20.7122538,-103.3784553,15z/data=!4m5!3m4!1s0x0:0xf7bcbe2370fc93fc!8m2!3d20.7122538!4d-103.3784553"
-    },
-    {
-           "place" : "Estadio Jalisco",
-         "address" : "Calle 7 Colinas 1772, Independencia, 44290 Guadalajara, Jal.",
-         "latitud" : 20.7049947,
-        "longitud" : -103.3281769,
-         "picture" : "img/maps/estadio_jalisco.jpg",
-            "link" : "https://www.google.com.mx/maps/place/Estadio+Jalisco/@20.7049947,-103.3281769,15z/data=!4m5!3m4!1s0x0:0x77ed0582d52f3be5!8m2!3d20.7049947!4d-103.3281769"
-    },
-    {
-           "place" : "Plaza Andares",
-         "address" : "Blvrd Puerta de Hierro 4965, Puerta de Hierro, 45116 Zapopan, Jal.",
-         "latitud" : 20.7093745,
-        "longitud" : -103.4150733,
-         "picture" : "img/maps/plaza_andares.jpg",
-            "link" : "https://www.google.com.mx/maps/place/Paseo+Andares,+45116+Zapopan,+Jal./@20.7093745,-103.4150733,17z/data=!3m1!4b1!4m5!3m4!1s0x8428af03ba1c626d:0xeea47646ab9fda84!8m2!3d20.7093745!4d-103.4128792"
-    },
-    {
-           "place" : "Plaza Galerías",
-         "address" : "Av Rafael Sanzio 150, Camichines Vallarta, 45030 Zapopan, Jal.",
-         "latitud" : 20.6769491,
-        "longitud" : -103.4317873,
-         "picture" : "img/maps/plaza_galerias.jpg",
-            "link" : "https://www.google.com.mx/maps/place/Galer%C3%ADas+Guadalajara/@20.6769491,-103.4317873,15z/data=!4m5!3m4!1s0x0:0x8d5f001385206f13!8m2!3d20.6769491!4d-103.4317873"
+           "place" : "Auditorio Benito Juarez",
+         "address" : "Av Mariano Barcena s/n, Auditorio, 45190 Zapopan, Jal.",
+         "latitud" : 20.7324095,
+        "longitud" : -103.3506721,
+         "picture" : "img/maps/auditorio_benito_juarez.jpg",
+            "link" : "https://www.google.com.mx/maps/place/Auditorio+Benito+Ju%C3%A1rez/@20.7324095,-103.3506721,17z/data=!3m1!4b1!4m5!3m4!1s0x8428b0231818942d:0x64d9b41e50cb6b95!8m2!3d20.7324095!4d-103.348478"
     },
     {
            "place" : "C3 Stage",
@@ -56,12 +16,12 @@
             "link" : "https://www.google.com.mx/maps/place/C3+Stage/@20.6748116,-103.3695477,15z/data=!4m5!3m4!1s0x0:0x9d1ec60bd4a5a049!8m2!3d20.6748116!4d-103.3695477"
     },
     {
-           "place" : "Teatro Diana",
-         "address" : "Av. 16 de Septiembre 710, Centro, 44460 Guadalajara, Jal.",
-         "latitud" : 20.6655003,
-        "longitud" : -103.3493567,
-         "picture" : "img/maps/teatro_diana.png",
-            "link" : "https://www.google.com.mx/maps/place/Teatro+Diana/@20.6655003,-103.3493567,15z/data=!4m5!3m4!1s0x0:0xe9eb2ce9f840bc21!8m2!3d20.6655003!4d-103.3493567"
+           "place" : "Catedral de Guadalajara",
+         "address" : "Av Alcalde 10, Zona Centro, 44100 Guadalajara, Jal.",
+         "latitud" : 20.677034,
+        "longitud" : -103.346984,
+         "picture" : "img/maps/catedral_guadalajara.jpg",
+            "link" : "https://www.google.com.mx/maps/place/Catedral+de+Guadalajara/@20.677034,-103.346984,15z/data=!4m5!3m4!1s0x0:0x25dcb2cdab10691a!8m2!3d20.677034!4d-103.346984"
     },
     {
            "place" : "CUCEI",
@@ -72,11 +32,75 @@
             "link" : "https://www.google.com.mx/maps/place/Centro+Universitario+de+Ciencias+Exactas+e+Ingenier%C3%ADas/@20.6539887,-103.3257588,15z/data=!4m5!3m4!1s0x0:0xdacdb7fd592feb90!8m2!3d20.6539887!4d-103.3257588"
     },
     {
-           "place" : "Catedral de Guadalajara",
-         "address" : "Av Alcalde 10, Zona Centro, 44100 Guadalajara, Jal.",
-         "latitud" : 20.677034,
-        "longitud" : -103.346984,
-         "picture" : "img/maps/catedral_guadalajara.jpg",
-            "link" : "https://www.google.com.mx/maps/place/Catedral+de+Guadalajara/@20.677034,-103.346984,15z/data=!4m5!3m4!1s0x0:0x25dcb2cdab10691a!8m2!3d20.677034!4d-103.346984"
+           "place" : "Estadio Chivas",
+         "address" : "Av Circuito JVC 2800, El Bajio, 45019 Zapopan, Jal.",
+         "latitud" : 20.6817764,
+        "longitud" : -103.4626455,
+         "picture" : "img/maps/estadio_chivas.jpg",
+            "link" : "https://www.google.com.mx/maps/place/Estadio+Chivas/@20.6817764,-103.4626455,15z/data=!4m5!3m4!1s0x0:0x52ad0db6ee356b88!8m2!3d20.6817764!4d-103.4626455"
+    },
+    {
+           "place" : "Estadio Jalisco",
+         "address" : "Calle 7 Colinas 1772, Independencia, 44290 Guadalajara, Jal.",
+         "latitud" : 20.7049947,
+        "longitud" : -103.3281769,
+         "picture" : "img/maps/estadio_jalisco.jpg",
+            "link" : "https://www.google.com.mx/maps/place/Estadio+Jalisco/@20.7049947,-103.3281769,15z/data=!4m5!3m4!1s0x0:0x77ed0582d52f3be5!8m2!3d20.7049947!4d-103.3281769"
+    },
+    {
+           "place" : "Glorieta la Minerva",
+         "address" : "Av. Vallarta, Vallarta, 44690 Guadalajara, Jal.",
+         "latitud" : 20.6744448,
+        "longitud" : -103.3873344,
+         "picture" : "img/maps/minerva.jpg",
+            "link" : "https://www.google.com.mx/maps/place/Glorieta+De+La+Minerva/@20.6744448,-103.3873344,15z/data=!4m2!3m1!1s0x0:0xf5962e03bf01aff8?sa=X&ved=0ahUKEwiznbGKofvXAhXo5YMKHcEWCs4Q_BIIsQEwFw"
+    },
+    {
+           "place" : "Glorieta la Minerva",
+         "address" : "Av. Vallarta, Vallarta, 44690 Guadalajara, Jal.",
+         "latitud" : 20.6744448,
+        "longitud" : -103.3873344,
+         "picture" : "img/maps/minerva.jpg",
+            "link" : "https://www.google.com.mx/maps/place/Glorieta+De+La+Minerva/@20.6744448,-103.3873344,15z/data=!4m2!3m1!1s0x0:0xf5962e03bf01aff8?sa=X&ved=0ahUKEwiznbGKofvXAhXo5YMKHcEWCs4Q_BIIsQEwFw"
+    },
+    {
+           "place" : "Mercado San Juan De Dios",
+         "address" : "Av. Javier Mina 52, San Juan de Dios, 44380 Guadalajara, Jal.",
+         "latitud" : 20.675548,
+        "longitud" : -103.33993,
+         "picture" : "img/maps/san_juan_dd.jpg",
+            "link" : "https://www.google.com.mx/maps/place/Mercado+Libertad+-+San+Juan+de+Dios/@20.675548,-103.33993,15z/data=!4m5!3m4!1s0x0:0xb3e9373ea5463503!8m2!3d20.675548!4d-103.33993"
+    },    
+    {
+           "place" : "Plaza del Sol",
+         "address" : "Avenida López Mateos Sur 2375, Ciudad del Sol, Cd del Sol, 45050 Zapopan, JAL",
+         "latitud" : 20.649562,
+        "longitud" : -103.4040404,
+         "picture" : "img/maps/plaza_del_sol.jpg",
+            "link" : "https://www.google.com.mx/maps/place/Plaza+del+Sol/@20.649562,-103.4040404,15z/data=!4m5!3m4!1s0x0:0x79895784974bf513!8m2!3d20.649562!4d-103.4040404"
+    },
+    {
+           "place" : "Plaza Galerías",
+         "address" : "Av Rafael Sanzio 150, Camichines Vallarta, 45030 Zapopan, Jal.",
+         "latitud" : 20.6769491,
+        "longitud" : -103.4317873,
+         "picture" : "img/maps/plaza_galerias.jpg",
+            "link" : "https://www.google.com.mx/maps/place/Galer%C3%ADas+Guadalajara/@20.6769491,-103.4317873,15z/data=!4m5!3m4!1s0x0:0x8d5f001385206f13!8m2!3d20.6769491!4d-103.4317873"
+    },
+    {
+           "place" : "Plaza Patria",
+         "address" : "Centro Comercial Plaza Patria Zona L Planta Alta, Jacarandas, 45160 Zapopan, Jal.",
+         "latitud" : 20.7122538,
+        "longitud" : -103.3784553,
+         "picture" : "img/maps/plaza_patria.jpg",
+            "link" : "https://www.google.com.mx/maps/place/Plaza+Patria/@20.7122538,-103.3784553,15z/data=!4m5!3m4!1s0x0:0xf7bcbe2370fc93fc!8m2!3d20.7122538!4d-103.3784553"
+    },
+    {
+           "place" : "Teatro Diana",
+         "address" : "Av. 16 de Septiembre 710, Centro, 44460 Guadalajara, Jal.",
+         "latitud" : 20.6655003,
+        "longitud" : -103.3493567,
+         "picture" : "img/maps/teatro_diana.png",
+            "link" : "https://www.google.com.mx/maps/place/Teatro+Diana/@20.6655003,-103.3493567,15z/data=!4m5!3m4!1s0x0:0xe9eb2ce9f840bc21!8m2!3d20.6655003!4d-103.3493567"
     }
 ]
